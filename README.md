@@ -30,7 +30,7 @@ git clone https://github.com/aysenuralbayrak/mood-survey.git
 ```sh
 npm install
 ```
-4. Enter your API keys in `dev.env` files of frontend and backend.
+4. Enter your API keys in `local.env` files of frontend and backend.
 ```JS
 const API_KEY = 'ENTER YOUR API';
 ```
