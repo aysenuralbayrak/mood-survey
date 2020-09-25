@@ -1,0 +1,81 @@
+.box-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box-layout__box {
+    border-radius: 10px;
+    background-color: rgb(253, 253, 254);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 8px 8px;
+    border-radius: 3px;
+    padding: $l-size $m-size;
+    text-align: center;
+    width: 380px;
+    
+  }
+  
+  .box-layout__title {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    color: rgb(33, 33, 33);
+    font-weight: 300;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .box-layout__admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+  }
+  
+  .box-layout__box__admin {
+    border-radius: 10px;
+    background-color: rgb(253, 253, 254);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 8px 8px;
+    border-radius: 3px;
+    padding: $l-size $m-size;
+    text-align: center;
+    width: 380px;
+    
+  }
+  
+  .box-layout__title__admin {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    color: rgb(33, 33, 33);
+    font-weight: 300;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .box-layout__login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box-layout__box__login {
+    border-radius: 10px;
+    background-color: rgb(253, 253, 254);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 8px 8px;
+    border-radius: 3px;
+    padding: $l-size $m-size;
+    text-align: center;
+    width: 380px;
+    
+  }
+  
+  .box-layout__title__login {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    color: rgb(33, 33, 33);
+    font-weight: 300;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .box-layout__survey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }

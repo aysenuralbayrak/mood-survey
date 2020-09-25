@@ -1,0 +1,45 @@
+{
+  "name": "mood-survey",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "engines": {
+    "npm": "6.14.4",
+    "node": "12.16.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "css-loader": "^3.6.0",
+    "firebase": "^7.15.0",
+    "history": "^4.10.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-file-reader": "^1.1.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "sass-loader": "^9.0.1",
+    "style-loader": "^1.2.1"
+  },
+  "scripts": {
+    "start": "env-cmd -f ./config/dev.env react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

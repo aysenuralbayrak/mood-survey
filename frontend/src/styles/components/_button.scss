@@ -1,0 +1,123 @@
+.button {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  height: 2.857rem;
+  line-height: 100%;
+  background-color: rgb(67, 149, 226);
+  font-size: 1.28em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  width: 70%;
+  outline: none;
+  border-radius: 1.75em;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  cursor: pointer;
+}
+ 
+.button:hover {
+  background-color: rgb(142, 189, 233);
+}
+
+.button__header {
+  margin-right: 10rem;
+  margin-top: 3rem;
+  height: 45px;
+  width: 100px;
+}
+
+.button__upload {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  position: relative;
+  padding-left: 13rem;
+  cursor: pointer;
+}
+
+.button__input-file {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.button__input-file + label {
+  font: 400 13.3333px Arial;
+  margin-right: 7px;
+  padding: 7px;
+  border-radius: 1.75em;
+  color: white;
+  background-color: rgb(68, 169, 202);
+  cursor: pointer;
+}
+
+.button__input-file + label:hover {
+  background-color: rgb(150, 211, 231);
+}
+
+.button__send {
+  margin-right: 5px;
+  background-color: rgb(68, 169, 202);
+  color: rgb(255, 255, 255);
+  outline: none;
+  border-radius: 1.75em;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  height: 3rem;
+  width: 10rem;
+  margin-top: 20px;
+}
+
+.button__send:hover {
+  background-color: rgb(150, 211, 231);
+}
+
+.button__image {
+  margin-right: 12px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.button__image__passive {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.button__image:hover {
+  transform: scale(1.3);
+}
+
+.button__image:focus {
+  transform: scale(1.5);
+}
+.button__image:focus {
+  transform: scale(1.5);
+}
+.button__active{
+  transform: scale(1.5);
+}
+.button__submit {
+  background-color: rgb(202, 141, 29);
+  color: rgb(255, 255, 255);
+  outline: none;
+  border-radius: 1.75em;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  height: 4rem;
+  width: 12rem;
+}
+
+.button__submit:hover {
+  background-color: rgb(202, 159, 79);
+}
+
+.button__submit:focus {
+  background-color: rgb(226, 199, 77);
+}
+.selected{
+  transform: scale(1.3);
+  
+  margin-right: 12px;
+}

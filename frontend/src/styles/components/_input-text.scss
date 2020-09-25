@@ -1,0 +1,25 @@
+.input-text__login {
+  background-color: rgb(255, 255, 255);
+  color: rgb(76, 76, 76);
+  width: 100%;
+  min-width: 14em;
+  height: 2.43em;
+  outline-color: rgb(0, 193, 222);
+  padding: 0px 1em;
+  border-color: rgb(212, 212, 212);
+  border-width: 1px;
+  border-style: solid;
+  outline: none;
+  margin-bottom: 3rem;
+}
+
+.input__container {
+  position: relative;
+}
+
+.input__email {
+  list-style: none;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
